@@ -1,0 +1,71 @@
+{
+	"id": "cbbdeb1a-d518-9a80-ce41-01fc26aa89d1",
+	"name": "scss-auth-service",
+	"description": "authentication micro service for scss",
+	"order": [
+		"94beeb10-9ac9-68d8-347e-e1c77cd16eb1",
+		"844e205e-a4ed-6d37-15c2-003b4c66ae00",
+		"ce8d3c38-9ae5-4bf3-fdb8-c8dc2e39d29f"
+	],
+	"folders": [],
+	"timestamp": 1493490589461,
+	"owner": "390246",
+	"public": false,
+	"requests": [
+		{
+			"id": "844e205e-a4ed-6d37-15c2-003b4c66ae00",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Requested-With: XMLHttpRequest\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNjI0LDIyMSwzMTEsNDI0LDM2MywzMTMsMzk1LDM5MSw0NDYsMzg5LDQ1NSwzMTQsMzc0LDQyMyw0MzEsNDI5LDQxOSw3MDIsMzc3LDMxNSwzMjcsNDQ3LDM3OSwyMTEsMzgzLDkwMSw0NDQsMzc2LDQ1NCw0MzAsMzc1LDUyMCwzNjIsNDY0LDQ2OCw2MjEsMTEyLDM4OCwzODcsMzgyLDQ0MSw2MjIsNDM1LDMzMSw0NjIsNDU2LDQ2NSw0MjcsMzQwLDQ1MSwxMTMsNDY3LDQ0OCw0MTYsNDEzLDQyNiw0MjgsNjIzLDExNCw0MTcsMzgxLDM4NCwzOTIsMzYxLDQ2MSwzNzIsNTEwLDIyMiwxMTEsMzI0LDM4NiwzNzgsMzYwLDQxNSwzOTQsNDE0LDQzMywzMjEsMzI1LDQ0OSw3MDEsMzI2LDQxOCwzMzIsMzgwLDQ1Miw0NDIsNDMyLDYyNSw0NjYsMzIzLDQ0NSwzMTIsNDYzLDM5MCwzOTMsNDQzLDMyMiwzNzEsMzg1XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5MzQ5MDQwMiwiZXhwIjoxNDkzNDkxMzAyfQ.lxaFBqvANLblzxBrpEppG4V8eFPtJQhtF3BT_Y1RXY_Y4tFF8CLbfFVc5UsGiTKFaoFtkmufall2hf_E0JwWiw\n",
+			"url": "localhost:8080/scss-auth-service/public/refreshtoken",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493490414205,
+			"name": "http://localhost:8080/scss-auth-service/public/refreshtoken",
+			"description": "refresh token function",
+			"collectionId": "cbbdeb1a-d518-9a80-ce41-01fc26aa89d1",
+			"responses": []
+		},
+		{
+			"id": "94beeb10-9ac9-68d8-347e-e1c77cd16eb1",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Requested-With: XMLHttpRequest\n",
+			"url": "http://localhost:8080/scss-auth-service/public/login",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493490102563,
+			"name": "http://localhost:8080/scss-auth-service/public/login",
+			"description": "login function",
+			"collectionId": "cbbdeb1a-d518-9a80-ce41-01fc26aa89d1",
+			"responses": [],
+			"rawModeData": "{\r\n    \"username\": \"testt\",\r\n    \"password\": \"testme\"\r\n}"
+		},
+		{
+			"id": "ce8d3c38-9ae5-4bf3-fdb8-c8dc2e39d29f",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Requested-With: XMLHttpRequest\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDMzLDM0MCw0MTQsNDU0LDQxMyw0MzIsNjIyLDQ0MSwzNzQsMzI0LDIyMSwzODMsNDE1LDQ0Miw1MTAsNTIwLDYyMyw0NTEsOTAxLDQ0NywzMjEsMzk0LDMyNSwzMzIsMzg5LDMxMSwzOTAsNDYyLDM5NSwzOTMsMzYwLDMyMyw0NDMsNDI4LDQ0Niw0MTgsNzAxLDExMyw0MzAsNDI2LDM2MSw0MzEsMTEyLDM4NCw0NDQsMzg3LDExNCwzMTUsMzg4LDM3MSwzMTMsNDI3LDQ0OCw0NjcsNDE3LDcwMiw0NTIsNDQ1LDM4NSw0MTYsNDU2LDM2Myw0MjQsMTExLDIyMiw0NjYsMzMxLDM2Miw2MjUsMzc5LDMxNCwzNzcsMzgwLDQ2MSwzOTEsNDIzLDMxMiw0NDksMzgyLDM5MiwzNzIsMzc2LDYyMSw0MzUsNDU1LDM3OCw0NjgsNDYzLDMyNywyMTEsMzIyLDM4NiwzMjYsMzc1LDQyOSw0NjUsNDE5LDQ2NCw2MjQsMzgxXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5MzQ5MDQ4MSwiZXhwIjoxNDkzNDkxMzgxfQ.EmA2rNFE-9Q_b-JEKMgQ2xwnGtiPFA-wyBootYggXeKtq9djfSoqUcMV6BwcjOzl2auY0Bl01LlRsOOZEPavfw\n",
+			"url": "localhost:8080/scss-auth-service/secure/logout",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493490548260,
+			"name": "localhost:8080/scss-auth-service/secure/logout",
+			"description": "logout function",
+			"collectionId": "cbbdeb1a-d518-9a80-ce41-01fc26aa89d1",
+			"responses": []
+		}
+	]
+}

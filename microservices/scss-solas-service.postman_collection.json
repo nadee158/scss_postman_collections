@@ -1,0 +1,32 @@
+{
+	"id": "84f3673f-736e-e264-f7b0-7dcaf5105f23",
+	"name": "scss-solas-service",
+	"description": "",
+	"order": [
+		"16de8021-de5a-a9e6-f7b3-19997bda82a1"
+	],
+	"folders": [],
+	"timestamp": 1493493375220,
+	"owner": "390246",
+	"public": false,
+	"requests": [
+		{
+			"id": "16de8021-de5a-a9e6-f7b3-19997bda82a1",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMTEzLDMyMiwzODgsMzk0LDMyMywzNzQsNDMzLDM4OSw2MjEsMzYwLDQxNCwzMjEsMzgyLDQ2Myw0NDksNTEwLDQyMyw0MjgsNDI5LDQ2NiwzMzEsMzc1LDM3OCw0NDMsMjIxLDQ0Miw0NTIsNDU0LDIyMiw2MjUsNDQ1LDM4Niw2MjQsNDEzLDMyNSwzNzksNDYyLDM0MCwzODAsNDQ2LDM4MSwzNzEsNDY3LDYyMiwxMTIsMzEyLDQzMiw0NDQsMzg0LDQ0Nyw0MzUsNzAyLDQxOCw5MDEsMzMyLDQ0MSwzNjEsMzEzLDM4MywzODUsMzkxLDQ1NiwzMjcsNDY0LDM2Myw0MjcsNTIwLDQ0OCw0NjgsMTE0LDM3Niw2MjMsMzE1LDMyNCwzNzIsNDI0LDQxNiw0MzEsNzAxLDIxMSwzOTMsNDYxLDM5Miw0MTUsNDUxLDM5NSwzMjYsMzc3LDMxNCw0NTUsNDE3LDQ2NSwzMTEsMzkwLDM2MiwxMTEsNDE5LDM4Nyw0MzAsNDI2XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5MzQ5MzMwNCwiZXhwIjoxNDkzNDk0MjA0fQ.GKHL3hZb0TYTknEEjWahHirsOTrAw0NlqGk5cxk3hFwZ4T1mN5L9qyH_HPZIA1vxd7Jc5uw0waDiB89rA3RRZw\nX-Requested-With: XMLHttpRequest\n",
+			"url": "http://localhost:8085/scss-solas-service/api/solas/calculatevgm",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1493493400673,
+			"name": "http://localhost:8085/scss-solas-service/api/solas/calculatevgm",
+			"description": "Calculate solas weight",
+			"collectionId": "84f3673f-736e-e264-f7b0-7dcaf5105f23",
+			"rawModeData": "[\r\n   {\r\n      \"container\":{\r\n         \"containerNumber\":\"VSLCONT0011\",\r\n         \"containerFullOrEmpty\":\"F\"\r\n      },\r\n      \"pmWeight\":\"454\",\r\n      \"trailerWeight\":\"5454\",\r\n      \"trailerPlateNo\":\"JK-4521\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":\"465\",\r\n      \"solas\":{\r\n         \"mgw\":50,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"878\"\r\n      },\r\n      \"expWeightBridge\":20000\r\n   },\r\n   {\r\n      \"container\":{\r\n         \"containerNumber\":\"QASS1234003\",\r\n         \"containerFullOrEmpty\":\"E\"\r\n      },\r\n      \"pmWeight\":\"454\",\r\n      \"trailerWeight\":\"5454\",\r\n      \"trailerPlateNo\":\"JK-4521\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":\"465\",\r\n      \"solas\":{\r\n         \"mgw\":50,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"878\"\r\n      },\r\n      \"expWeightBridge\":34000\r\n   }\r\n]"
+		}
+	]
+}
