@@ -139,7 +139,7 @@
 			"currentHelper": "normal",
 			"helperAttributes": {},
 			"time": 1494565528905,
-			"name": "http://localhost:8080/scss-gatein/api/gatein/calculatevgm",
+			"name": "http://localhost:8080/scss-gatein/api/gatein/solas/calculatevgm/{true}",
 			"description": "Calculate solas weight",
 			"collectionId": "e0afd2ab-b55b-0972-24a5-c97a2677dcd4",
 			"rawModeData": "[  \r\n   {  \r\n      \"container\":{  \r\n         \"containerNumber\":\"IPOH22222115\",\r\n         \"containerFullOrEmpty\":\"F\"\r\n      },\r\n      \"pmWeight\":\"8710\",\r\n      \"trailerWeight\":\"5230\",\r\n      \"trailerPlateNo\":\"DFD\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":null,\r\n      \"solas\":{  \r\n         \"mgw\":36000,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"3000\"\r\n      },\r\n      \"expWeightBridge\":68980,\r\n      \"expNetWeight\":26000\r\n   },\r\n   {  \r\n      \"container\":{  \r\n         \"containerNumber\":\"IPOH22222116\",\r\n         \"containerFullOrEmpty\":\"F\"\r\n      },\r\n      \"pmWeight\":\"8710\",\r\n      \"trailerWeight\":\"3000\",\r\n      \"trailerPlateNo\":\"DFD\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":null,\r\n      \"solas\":{  \r\n         \"mgw\":36000,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"3000\"\r\n      },\r\n      \"expWeightBridge\":68980,\r\n      \"expNetWeight\":23000\r\n   }\r\n]"
