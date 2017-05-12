@@ -36,8 +36,8 @@
 		},
 		{
 			"id": "36cc96e6-7db9-b34d-de5f-3884a8e87b13",
-			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDY3LDQxNiwyMjIsNzAyLDQ0OCwzNjMsNDI5LDM4MywzODksNjIyLDM2MiwzMjEsMzEyLDM3MiwzNzcsMjIxLDM0MCw0NjgsMzcxLDQ0NCwzMjMsNDEzLDM4NywxMTIsNDI0LDMzMSw0MTcsMzgxLDQ0NSwzMjYsNDU0LDYyNCw0MjcsNDE4LDQ2MSwzOTMsNDE5LDYyMywzODAsMzc0LDM5Miw0NTUsNjIxLDMxNCw0MzAsMTExLDM4NSwzMzIsMzg2LDQzMiwzMjUsNDY1LDM5MCwzMTEsMzc1LDQyNiw0NDksMjExLDMyNyw0NDEsMzkxLDQ0MywzNzYsNDUyLDQ1MSwzMTUsNDYyLDQyOCwzOTUsNDE0LDExNCw0NDYsMzc5LDMyMiwzNjEsNDM1LDExMywzNjAsNjI1LDQzMyw0MTUsMzgyLDcwMSw1MjAsMzc4LDQ2NCwzODgsNDIzLDQ0Miw0NDcsNDYzLDQ2NiwzOTQsMzI0LDQzMSwzODQsNDU2LDMxMyw1MTAsOTAxXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5Mzg3NjcxMSwiZXhwIjoxNDkzODc3NjExfQ.R43w2elVTrq6BPXYn2Y5bWeaxmquqQ3pUfEDreURYsRtyvRz6MMmX4M6EVylyd9Js_DcQmquJOTPUFivMqbXDg\nX-Requested-With: XMLHttpRequest\n",
-			"url": "http://localhost:8080/scss-gatein/api/gatein/populategatein",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNjI1LDYyMSw0MzEsMzYyLDMxMiw0MjQsMzI3LDQ0Miw0MzIsNDU0LDQyNiw2MjQsNTEwLDM3NiwzNzIsMzg1LDM3OSw0MTQsMzg0LDQyMyw0NDEsOTAxLDMyMyw0NTYsMzg4LDQxNSw0MjcsNDMwLDQ1NSw0NTIsMzgxLDQ2NCwzODksMzExLDcwMiw2MjIsNDY2LDQ0NywzODYsMzk1LDExMyw0NjgsNDE4LDQ0NCwyMjEsNzAxLDQ0OCw0NDUsMzMxLDExMiwzNzEsMTE0LDIxMSwzOTIsNjIzLDMyNCwzODIsMzIxLDM0MCwzNjMsNDYxLDM5MSwzNzUsMzI2LDM2MCwzMTQsMzg3LDQ0OSw0MTMsNDQ2LDMxMyw0MjksNDE2LDQ0MywzNzQsNDMzLDMxNSwyMjIsMzkzLDQzNSwzMjIsMzkwLDQ1MSwzNjEsNTIwLDQxOSw0NjMsMzc4LDQ2Miw0MTcsMzMyLDM3NywzODMsMzgwLDQ2Nyw0MjgsNDY1LDMyNSwzOTQsMTExXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NDMyNDE4NywiZXhwIjoxNDk0MzI1MDg3fQ.rbCSVvd_pif1Aobs-Qo3Kx3L9gpdU9xYh2Gr2iB7z1fNZdreSc2_z9s1BMfr-Ix8tnDkvAIyJTD_YE6i7DrwCA\nX-Requested-With: XMLHttpRequest\n",
+			"url": "172.21.77.76:8080/scss-gatein/api/gatein/populategatein",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "PUT",
@@ -46,11 +46,11 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1493878260952,
+			"time": 1494410136174,
 			"name": "http://localhost:8080/scss-gatein/api/gatein/populategatein",
 			"description": "check for incomplete transactions before gate in ",
 			"collectionId": "e0afd2ab-b55b-0972-24a5-c97a2677dcd4",
-			"rawModeData": "{\r\n \"gatePass1\": 0,\r\n \"gatePass2\": 0,\r\n \"cardID\": 1729,\r\n \"expContainer1\": \"IPOH22222102\",\r\n \"expContainer2\": \"IPOH22222101\",\r\n \"truckHeadNo\": \"KN701\",\r\n \"gateInDateTime\": \"04-05-2017 11:14:31\",\r\n \"clientID\": 10,\r\n \"expWeightBridge\": 36000,\r\n \"checkPreArrival\": false,\r\n \"hpabSeqId\": null,\r\n  \"referID\":64453\r\n\r\n}"
+			"rawModeData": "{\r\n \"gatePass1\": 0,\r\n \"gatePass2\": 0,\r\n \"cardID\": 1729,\r\n \"expContainer1\": \"NINI11111111\",\r\n \"expContainer2\": null,\r\n \"truckHeadNo\": \"KN500\",\r\n \"gateInDateTime\": \"04-05-2017 11:14:31\",\r\n \"clientID\": 10,\r\n \"expWeightBridge\": 36000,\r\n \"checkPreArrival\": false,\r\n \"hpabSeqId\": null,\r\n  \"referID\":null\r\n\r\n}"
 		},
 		{
 			"id": "8afbb4b7-c762-c0a7-c230-e8be779cec11",
@@ -128,8 +128,8 @@
 		},
 		{
 			"id": "f27b7ba0-c1b9-8374-b4d6-73c769ddbf89",
-			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzg3LDQxNyw0NjMsMzc0LDQ0MSw0NDQsNDY2LDQ1MiwzMjUsMzkyLDMxNCw0MTYsMjExLDMxMiwzMjEsMzk1LDQzNSwzNjMsMzcyLDM4Myw0NDksNDI2LDM4OCwzNzgsNjI1LDQzMSw0MTMsNDY4LDQyNyw0MzMsMzg2LDQyOCw0NjQsNDQyLDQ2Miw2MjMsMzcxLDkwMSw0MTQsMzk0LDM5MCwzMjYsMzYyLDQzMCw3MDIsMzgwLDQyOSw0NjcsMTExLDM5MSwzODEsMzIyLDQ1NCwzMTUsMzg5LDM4Miw0NDYsMzc2LDMxMyw0NjEsNDU1LDQzMiwxMTIsNTEwLDQ0Myw0MTksNjI0LDYyMSw0MjQsMzg1LDM3NywxMTMsMzI3LDM3NSw0NDgsNDE1LDYyMiw0MjMsMzc5LDUyMCwyMjEsMzIzLDcwMSw0NTEsNDU2LDM2MCw0NDUsMTE0LDIyMiw0MTgsMzExLDMyNCwzMzEsMzg0LDM0MCwzMzIsNDQ3LDM2MSwzOTMsNDY1XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5MjAxOTU1OCwiZXhwIjoxNDkyMDIwNDU4fQ.VkGjT6AmQlPJIZ56M0z3r5-3Hm3Yr1TlxVH8D37o_Mhpm0kHahyGEklfwzmhsMlwuS3Y9kNHJ9BR5KdA7t-lyQ\nX-Requested-With: XMLHttpRequest\n",
-			"url": "http://localhost:8080/scss-gatein/api/gatein/solas/calculatevgm",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzgwLDIxMSw1MjAsNDIzLDM2MCw0MTMsNTEwLDM3Niw0MjcsMzYxLDMyMSw0MzUsMzcxLDMyNSw0NTUsMzkzLDQzMiwxMTMsNDYyLDExMSw0MjYsNDMwLDExNCw0NTIsNDE5LDYyMyw0MjgsNDY0LDM3NCwzNjMsNjI1LDQ0MSw5MDEsNDMxLDQxNSwzODUsMzE1LDMyNywzODQsNDQ4LDQ2NywzODcsNDE3LDM3OCwzMzEsMzc5LDM4NiwzOTIsMzIzLDQ2Myw3MDEsNjIyLDQzMyw2MjQsMzYyLDQ0NiwzMjIsNDQyLDQ0OSw0NjUsNDU0LDMxNCwzODgsMzgzLDIyMSw0NDQsMzk0LDIyMiwzOTEsMzEzLDMxMSw0NjgsNDQzLDQ1Niw2MjEsMzI0LDExMiwzMjYsNDE2LDQ2Niw0NjEsNDE4LDMzMiwzNzUsMzgxLDMxMiwzOTAsMzgyLDM3Nyw0MjksNDUxLDM4OSwzNzIsMzQwLDQxNCw3MDIsNDI0LDQ0NSwzOTUsNDQ3XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NDU2NTA5NCwiZXhwIjoxNDk0NTY1OTk0fQ.GDjIBz6slsVLbJM-mTPYuZygydKw34rTjP_8M2Mtfo55iYnVSdQyHYk_Rdc6C9dX9auB6S-_60JoUAIpnO5GAA\nX-Requested-With: XMLHttpRequest\n",
+			"url": "http://localhost:8080/scss-gatein/api/gatein/solas/calculatevgm/true",
 			"preRequestScript": null,
 			"pathVariables": {},
 			"method": "PUT",
@@ -138,11 +138,11 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1494200533000,
+			"time": 1494565528905,
 			"name": "http://localhost:8080/scss-gatein/api/gatein/calculatevgm",
 			"description": "Calculate solas weight",
 			"collectionId": "e0afd2ab-b55b-0972-24a5-c97a2677dcd4",
-			"rawModeData": "[\r\n   {\r\n      \"container\":{\r\n         \"containerNumber\":\"VSLCONT0011\",\r\n         \"containerFullOrEmpty\":\"F\"\r\n      },\r\n      \"pmWeight\":\"454\",\r\n      \"trailerWeight\":\"5454\",\r\n      \"trailerPlateNo\":\"JK-4521\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":\"465\",\r\n      \"solas\":{\r\n         \"mgw\":50,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"878\"\r\n      },\r\n      \"expWeightBridge\":20000\r\n   },\r\n   {\r\n      \"container\":{\r\n         \"containerNumber\":\"QASS1234003\",\r\n         \"containerFullOrEmpty\":\"E\"\r\n      },\r\n      \"pmWeight\":\"454\",\r\n      \"trailerWeight\":\"5454\",\r\n      \"trailerPlateNo\":\"JK-4521\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":\"465\",\r\n      \"solas\":{\r\n         \"mgw\":50,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"878\"\r\n      },\r\n      \"expWeightBridge\":34000\r\n   }\r\n]"
+			"rawModeData": "[  \r\n   {  \r\n      \"container\":{  \r\n         \"containerNumber\":\"IPOH22222115\",\r\n         \"containerFullOrEmpty\":\"F\"\r\n      },\r\n      \"pmWeight\":\"8710\",\r\n      \"trailerWeight\":\"5230\",\r\n      \"trailerPlateNo\":\"DFD\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":null,\r\n      \"solas\":{  \r\n         \"mgw\":36000,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"3000\"\r\n      },\r\n      \"expWeightBridge\":68980,\r\n      \"expNetWeight\":26000\r\n   },\r\n   {  \r\n      \"container\":{  \r\n         \"containerNumber\":\"IPOH22222116\",\r\n         \"containerFullOrEmpty\":\"F\"\r\n      },\r\n      \"pmWeight\":\"8710\",\r\n      \"trailerWeight\":\"3000\",\r\n      \"trailerPlateNo\":\"DFD\",\r\n      \"withinTolerance\":false,\r\n      \"calculatedVariance\":null,\r\n      \"solas\":{  \r\n         \"mgw\":36000,\r\n         \"solasInstruction\":\"SHIPPER VGM\",\r\n         \"shipperVGM\":\"3000\"\r\n      },\r\n      \"expWeightBridge\":68980,\r\n      \"expNetWeight\":23000\r\n   }\r\n]"
 		}
 	]
 }
