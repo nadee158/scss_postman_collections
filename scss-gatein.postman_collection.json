@@ -6,7 +6,8 @@
 		"39dbeda0-1d8b-f27b-5a1e-20194b2a1518",
 		"38218c27-403c-2481-ddbb-d10be7fbb209",
 		"0eb80882-905e-6b2b-2ee8-600ffcd68d25",
-		"44f2f65a-78a0-5cf6-10bc-6bca8642ea8c"
+		"44f2f65a-78a0-5cf6-10bc-6bca8642ea8c",
+		"f11dc676-3c0b-ed39-22b6-378d34df3362"
 	],
 	"folders": [],
 	"timestamp": 0,
@@ -84,6 +85,24 @@
 			"description": "Calculate solas weight",
 			"collectionId": "e77a978e-9fce-b7a1-144d-e944cbfd6a87",
 			"rawModeData": "[\r\n      {\r\n         \"exportID\":6295406\r\n        \r\n      },\r\n      {\r\n         \"exportID\":6295405\r\n      }\r\n   ]"
+		},
+		{
+			"id": "f11dc676-3c0b-ed39-22b6-378d34df3362",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzEzLDQxMyw0NjgsNDI3LDQ1NCw0MzIsNDQ5LDcwMSwyMjEsMTE0LDQ2NCwzMTUsNDI5LDM4OSw0NjMsNDMzLDYyNCwzODYsMzg0LDQyNCwzNjMsMjIyLDM2MSw3MDIsMzc1LDMxMiwzMTQsNDQ4LDMyNSwzODUsNjI1LDExMSwzODAsNjIzLDQzMSw1MTAsMzc4LDQ0NCwzMjcsNjIyLDM2Miw0NjYsNDQ2LDUyMCwzMjYsNDQ1LDQyNiwzOTMsNDE4LDM2MCw0NDMsNDUxLDM4OCw0NjUsMzcxLDQ1NSwxMTIsNDE5LDMzMiwzOTUsMzI0LDQ2NywxMTMsNDE1LDQxNywzNzksNDE0LDM4MiwzODMsMzk0LDM3NCw0MjgsOTAxLDM5MiwzODEsNDYxLDM5MCw0MTYsNDQxLDM3MiwzNzcsNDM1LDM4Nyw0NTIsNDMwLDQyMywzOTEsNDQyLDYyMSwyMTEsMzIzLDQ0NywzMjEsMzc2LDQ1Niw0NjIsMzMxLDMxMSwzNDAsMzIyXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5MTgzNzMyNiwiZXhwIjoxNDkxODM4MjI2fQ.BfQiUIycEoaKyUsZJrDPE5Niq3NGuz2awYTQwOCnsukaDH4aS8viQagUu6PDSWD6y-Bb-Nrd3gUzKhMVRNtCYA\nX-Requested-With: XMLHttpRequest\n",
+			"url": "http://localhost:8080/scss-gatein/api/gatein/odd/whodd/save",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1495471729100,
+			"name": "http://localhost:8080/scss-gatein/api/gatein/odd/whodd/save",
+			"description": "To tes the export container save method",
+			"collectionId": "e77a978e-9fce-b7a1-144d-e944cbfd6a87",
+			"rawModeData": "{\r\n   \"truckHeadNo\":\"KN722\",\r\n   \"truckPlateNo\":\"BLX7603\",\r\n   \"truckWeight\":8160,\r\n   \"trailerNo\":\"DWR\",\r\n   \"trailerWeight\":3000,\r\n   \"gateInDateTime\":\"19-05-2017 19:04:46\",\r\n   \"weightBridge\":35000,\r\n   \"gateInClient\":10,\r\n   \"cardID\":1729,\r\n   \"hpatBookingId\":null,\r\n   \"rejectReason\":null,\r\n   \"gateInStatus\":\"A\",\r\n   \"impExpFlag\":\"E\",\r\n   \"fuelWeight\":\"200\",\r\n   \"tireWeight\":\"400\",\r\n   \"variance\":\"100\",\r\n   \"referRejectDTO\":{\r\n      \"referRejectID\":65953\r\n   },\r\n   \"whoddContainers\":[\r\n      {\r\n         \"oddIdSeq\":0,\r\n         \"transactionSlipPrinted\":false,\r\n         \"gateOutBoothNo\":\"\",\r\n         \"timeGateInOk\":\"19-05-2017 19:04:46\",\r\n         \"timeGateOut\":\"19-05-2017 19:04:46\",\r\n         \"timeGateOutOk\":\"19-05-2017 19:04:46\",\r\n         \"timeGateOutBooth\":\"19-05-2017 19:04:46\",\r\n         \"gateOutClerkId\":12,\r\n         \"gateOutClientId\":45,\r\n         \"gateOutBoothClerkId\":78,\r\n         \"kioskCancelPickUp\":false,\r\n         \"kioskConfirmed\":false,\r\n         \"gateInStatus\":\"\",\r\n         \"inOutFlag\":\"\",\r\n         \"reviseHeadNoRemarks\":\"\",\r\n         \"reviseHeadNo\":\"\",\r\n         \"oldHeadNo\":\"\",\r\n         \"zipFileNo\":\"\",\r\n         \"trxSlipNo\":\"\",\r\n         \"container01\":{\r\n            \"containerNo\":\"TEMI77777777\",\r\n            \"location\":\"\",\r\n            \"remarks\":\"\",\r\n            \"oddStatus\":\"\",\r\n            \"rejectionReason\":\"\",\r\n            \"fullOrEmpty\":\"\",\r\n            \"containerSize\":\"\",\r\n            \"hdbsBkgDetailNoId\":\"10\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"TEMI00000000\",\r\n            \"location\":\"\",\r\n            \"remarks\":\"\",\r\n            \"oddStatus\":\"\",\r\n            \"rejectionReason\":\"\",\r\n            \"fullOrEmpty\":\"\",\r\n            \"containerSize\":\"\",\r\n            \"hdbsBkgDetailNoId\":\"10\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         }\r\n      },\r\n      {\r\n         \"oddIdSeq\":0,\r\n         \"transactionSlipPrinted\":false,\r\n         \"gateOutBoothNo\":\"\",\r\n         \"timeGateInOk\":\"19-05-2017 19:04:46\",\r\n         \"timeGateOut\":\"19-05-2017 19:04:46\",\r\n         \"timeGateOutOk\":\"19-05-2017 19:04:46\",\r\n         \"timeGateOutBooth\":\"19-05-2017 19:04:46\",\r\n         \"gateOutClerkId\":12,\r\n         \"gateOutClientId\":45,\r\n         \"gateOutBoothClerkId\":78,\r\n         \"kioskCancelPickUp\":false,\r\n         \"kioskConfirmed\":false,\r\n         \"gateInStatus\":\"\",\r\n         \"inOutFlag\":\"\",\r\n         \"reviseHeadNoRemarks\":\"\",\r\n         \"reviseHeadNo\":\"\",\r\n         \"oldHeadNo\":\"\",\r\n         \"zipFileNo\":\"\",\r\n         \"trxSlipNo\":\"\",\r\n         \"container01\":{\r\n            \"containerNo\":\"TEMI77777777\",\r\n            \"location\":\"\",\r\n            \"remarks\":\"\",\r\n            \"oddStatus\":\"\",\r\n            \"rejectionReason\":\"\",\r\n            \"fullOrEmpty\":\"\",\r\n            \"containerSize\":\"\",\r\n            \"hdbsBkgDetailNoId\":\"10\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"TEMI00000000\",\r\n            \"location\":\"\",\r\n            \"remarks\":\"\",\r\n            \"oddStatus\":\"\",\r\n            \"rejectionReason\":\"\",\r\n            \"fullOrEmpty\":\"\",\r\n            \"containerSize\":\"\",\r\n            \"hdbsBkgDetailNoId\":\"10\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         }\r\n      }\r\n   ]\r\n}"
 		}
 	]
 }
