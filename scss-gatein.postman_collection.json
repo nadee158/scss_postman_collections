@@ -37,21 +37,43 @@
 		},
 		{
 			"id": "34ed6f74-4a40-2238-3eec-fe4acd4494aa",
-			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzEzLDQxMyw0NjgsNDI3LDQ1NCw0MzIsNDQ5LDcwMSwyMjEsMTE0LDQ2NCwzMTUsNDI5LDM4OSw0NjMsNDMzLDYyNCwzODYsMzg0LDQyNCwzNjMsMjIyLDM2MSw3MDIsMzc1LDMxMiwzMTQsNDQ4LDMyNSwzODUsNjI1LDExMSwzODAsNjIzLDQzMSw1MTAsMzc4LDQ0NCwzMjcsNjIyLDM2Miw0NjYsNDQ2LDUyMCwzMjYsNDQ1LDQyNiwzOTMsNDE4LDM2MCw0NDMsNDUxLDM4OCw0NjUsMzcxLDQ1NSwxMTIsNDE5LDMzMiwzOTUsMzI0LDQ2NywxMTMsNDE1LDQxNywzNzksNDE0LDM4MiwzODMsMzk0LDM3NCw0MjgsOTAxLDM5MiwzODEsNDYxLDM5MCw0MTYsNDQxLDM3MiwzNzcsNDM1LDM4Nyw0NTIsNDMwLDQyMywzOTEsNDQyLDYyMSwyMTEsMzIzLDQ0NywzMjEsMzc2LDQ1Niw0NjIsMzMxLDMxMSwzNDAsMzIyXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5MTgzNzMyNiwiZXhwIjoxNDkxODM4MjI2fQ.BfQiUIycEoaKyUsZJrDPE5Niq3NGuz2awYTQwOCnsukaDH4aS8viQagUu6PDSWD6y-Bb-Nrd3gUzKhMVRNtCYA\nX-Requested-With: XMLHttpRequest\n",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzc4LDM4NywzOTQsMzMxLDQxNywzNzYsNTEwLDM3MSwzNjMsNDQzLDcwMiw0NDQsNDQ1LDM2MiwzMTEsNDY0LDM2MCwzOTMsNDU2LDMyNCw0MTMsNDI3LDM4Niw2MjUsNDE0LDQ2MiwzOTEsMzg5LDQ1NCwyMjEsNDMxLDMxNSwzOTAsMzc5LDQ0NywzMTQsMzEyLDM4NCwzMjMsNzAxLDYyMSwzMjcsMzQwLDQzMywzMjYsMzg4LDM5MiwxMTMsOTAxLDM3NSw0MjYsNDYxLDYyNCwzNjEsMzI1LDMyMiwxMTIsNDY1LDQyOCw2MjMsMzc3LDQ0MSw2MjIsMzcyLDQ0Miw0MTksMzEzLDQ1Miw0MzUsMTE0LDQyMyw0MzIsMzgzLDQyNCw0NjMsNDY3LDQzMCw0NjYsMzk1LDQ0OSwzODEsNDQ2LDM4NSwzMjEsMzMyLDQ2OCwyMjIsNDI5LDExMSw0NTUsMjExLDQ1MSwzODAsNDE2LDQ0OCwzNzQsNDE4LDUyMCw0MTUsMzgyXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjIyNzg4NSwiZXhwIjoxNDk2MjI4Nzg1fQ.nid2IHekc6E7lKLzmhcyH9omajg9-Le19xvPXyCUn0E0t9muUUA9Aw7iBkB4cgFCplles3lEldZp3Es9A20MUA\nX-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;charset=UTF-8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzc4LDM4NywzOTQsMzMxLDQxNywzNzYsNTEwLDM3MSwzNjMsNDQzLDcwMiw0NDQsNDQ1LDM2MiwzMTEsNDY0LDM2MCwzOTMsNDU2LDMyNCw0MTMsNDI3LDM4Niw2MjUsNDE0LDQ2MiwzOTEsMzg5LDQ1NCwyMjEsNDMxLDMxNSwzOTAsMzc5LDQ0NywzMTQsMzEyLDM4NCwzMjMsNzAxLDYyMSwzMjcsMzQwLDQzMywzMjYsMzg4LDM5MiwxMTMsOTAxLDM3NSw0MjYsNDYxLDYyNCwzNjEsMzI1LDMyMiwxMTIsNDY1LDQyOCw2MjMsMzc3LDQ0MSw2MjIsMzcyLDQ0Miw0MTksMzEzLDQ1Miw0MzUsMTE0LDQyMyw0MzIsMzgzLDQyNCw0NjMsNDY3LDQzMCw0NjYsMzk1LDQ0OSwzODEsNDQ2LDM4NSwzMjEsMzMyLDQ2OCwyMjIsNDI5LDExMSw0NTUsMjExLDQ1MSwzODAsNDE2LDQ0OCwzNzQsNDE4LDUyMCw0MTUsMzgyXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjIyNzg4NSwiZXhwIjoxNDk2MjI4Nzg1fQ.nid2IHekc6E7lKLzmhcyH9omajg9-Le19xvPXyCUn0E0t9muUUA9Aw7iBkB4cgFCplles3lEldZp3Es9A20MUA",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
 			"url": "http://localhost:8080/scss-gatein/api/gatein/populategatein",
+			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
+			"pathVariableData": [],
 			"method": "PUT",
 			"data": [],
 			"dataMode": "raw",
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1495272015193,
+			"time": 1496234549798,
 			"name": "http://localhost:8080/scss-gatein/api/gatein/populategatein",
 			"description": "check for incomplete transactions before gate in ",
 			"collectionId": "dddbd835-9d59-5e49-1c4e-c032c85cb68d",
-			"rawModeData": "{\r\n   \"gatePass1\":0,\r\n   \"gatePass2\":0,\r\n   \"cardID\":1729,\r\n   \"expContainer1\":\"TERM77777777\",\r\n   \"expContainer2\":\"TERM88888888\",\r\n   \"truckHeadNo\":\"KN5466\",\r\n   \"gateInDateTime\":\"19-05-2017 09:47:45\",\r\n   \"clientID\":10,\r\n   \"expWeightBridge\":35000,\r\n   \"checkPreArrival\":false,\r\n   \"hpabSeqId\":\"2c95cdd05c0fe300015c1e631b6000c7\",\r\n   \"referID\":null\r\n}"
+			"rawModeData": "{\r\n   \"gatePass1\":0,\r\n   \"gatePass2\":0,\r\n   \"cardID\":1729,\r\n   \"expContainer1\":\"NASA33333333\",\r\n   \"expContainer2\":\"NASA44444444\",\r\n   \"truckHeadNo\":\"KN731\",\r\n   \"gateInDateTime\":\"19-05-2017 09:47:45\",\r\n   \"clientID\":10,\r\n   \"expWeightBridge\":35000,\r\n   \"checkPreArrival\":false,\r\n   \"hpabSeqId\":\"2c95cdd05c3915fe015c5d892b3b00dc\",\r\n   \"referID\":null\r\n}"
 		},
 		{
 			"id": "536a5ef2-09b4-1624-db9f-7cea130ac47d",
@@ -75,21 +97,43 @@
 		},
 		{
 			"id": "b9eb8b77-c838-9d3e-0847-d365e62ee394",
-			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDMyLDM4Miw0MjcsNDI2LDExMSw0NjIsNDY2LDM4NSw0NjgsNDU1LDM4MCwzMTQsMzk1LDQ1NiwzODksNDQ2LDM4NCwzNjMsNDE1LDMyNCw0MTMsNDI0LDQxNiw5MDEsNDQ3LDM4OCwzMjEsNDMwLDQ2NSwyMTEsMzc0LDM3OCw0NDUsMzkzLDQ0MywzMjMsMzgxLDQ0OCw0NTIsMzI1LDMyNywyMjIsMzc2LDcwMSw0NDksMzkxLDMxMyw0MTQsMzYxLDQyOSwxMTQsNDE5LDM3MSwzOTQsNzAyLDQ2NCw0NjMsNDMxLDM4NywzNzcsNjIyLDMxMSw0MjgsNDU0LDM2Miw1MjAsMzMxLDQxNyw2MjUsMzgzLDYyNCw0NDEsNDM1LDExMyw1MTAsMzkwLDQ0NCwzNzUsMTEyLDM5Miw0MTgsMzYwLDM4NiwzNzksMzMyLDYyMSw0NTEsNDYxLDM0MCwyMjEsNDIzLDQ0Miw0NjcsMzIyLDQzMyw2MjMsMzEyLDMyNiwzNzIsMzE1XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjE2MzY2NSwiZXhwIjoxNDk2MTY0NTY1fQ.mMMAnmhN-aR2VDIUT1gaZj4k2UWqPPCctf45cyHfCwIK8OIoZ9Uaw0xQ8EznL68BCPxkph6fpAMXSweRuP4INg\nX-Requested-With: XMLHttpRequest\n",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMjIxLDQ1Niw0MTgsMzg1LDM4Myw0NDgsNDMzLDM2MCw0MjYsMzg4LDM4Miw0NDksNDQ1LDQyNCwzNjMsNDE0LDQ0MSwzMjMsMjExLDQzMiwxMTIsNDY1LDQzNSwzODcsMzgwLDM4NCw0NDMsMTE0LDQxNSwzNzIsMzk1LDM5NCw0NjQsNDE3LDQyNyw2MjUsNTEwLDQ2Nyw0NjIsNDY2LDM2MSw0NTEsMzYyLDMxNCwzNzYsMzkwLDQ0NCw5MDEsMzEyLDM3NSwzNzQsNjIyLDMzMiwzMjIsMzc4LDQxOSw0MTMsMzkxLDMzMSw0NjEsNTIwLDQ1Miw0NDIsMzE1LDMyNSw0MjMsNjI0LDIyMiw0NjgsMzEzLDQzMSwxMTMsNDU0LDM3NywzODksNzAyLDQzMCwzMjcsMzg2LDQ0Niw0MjgsMzcxLDM3OSwzMjEsNDE2LDMxMSw2MjMsMzkyLDQyOSwzMjQsMzI2LDQ1NSwzOTMsMTExLDYyMSw3MDEsNDYzLDQ0NywzODEsMzQwXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjI1MzYyNiwiZXhwIjoxNDk2MjU0NTI2fQ.UD0c3P-kKNUaXR9SnqWKMBNNMHD8J2_i1gpx5QOqYqmHvcC9hQbGlHSZhk8-tlxog0wAKFOUs8qwEUeWYTYIvg\nX-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;charset=UTF-8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMjIxLDQ1Niw0MTgsMzg1LDM4Myw0NDgsNDMzLDM2MCw0MjYsMzg4LDM4Miw0NDksNDQ1LDQyNCwzNjMsNDE0LDQ0MSwzMjMsMjExLDQzMiwxMTIsNDY1LDQzNSwzODcsMzgwLDM4NCw0NDMsMTE0LDQxNSwzNzIsMzk1LDM5NCw0NjQsNDE3LDQyNyw2MjUsNTEwLDQ2Nyw0NjIsNDY2LDM2MSw0NTEsMzYyLDMxNCwzNzYsMzkwLDQ0NCw5MDEsMzEyLDM3NSwzNzQsNjIyLDMzMiwzMjIsMzc4LDQxOSw0MTMsMzkxLDMzMSw0NjEsNTIwLDQ1Miw0NDIsMzE1LDMyNSw0MjMsNjI0LDIyMiw0NjgsMzEzLDQzMSwxMTMsNDU0LDM3NywzODksNzAyLDQzMCwzMjcsMzg2LDQ0Niw0MjgsMzcxLDM3OSwzMjEsNDE2LDMxMSw2MjMsMzkyLDQyOSwzMjQsMzI2LDQ1NSwzOTMsMTExLDYyMSw3MDEsNDYzLDQ0NywzODEsMzQwXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjI1MzYyNiwiZXhwIjoxNDk2MjU0NTI2fQ.UD0c3P-kKNUaXR9SnqWKMBNNMHD8J2_i1gpx5QOqYqmHvcC9hQbGlHSZhk8-tlxog0wAKFOUs8qwEUeWYTYIvg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
 			"url": "http://localhost:8080/scss-gatein/api/gatein/odd/whodd/save",
+			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
+			"pathVariableData": [],
 			"method": "POST",
 			"data": [],
 			"dataMode": "raw",
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1496191546925,
+			"time": 1496255601626,
 			"name": "http://localhost:8080/scss-gatein/api/gatein/odd/whodd/save",
 			"description": "To tes the export container save method",
 			"collectionId": "dddbd835-9d59-5e49-1c4e-c032c85cb68d",
-			"rawModeData": "{\r\n   \"truckHeadNo\":\"KN7221\",\r\n   \"truckPlateNo\":\"BLX76031\",\r\n   \"gateInDateTime\":\"27-05-2017 19:04:46\",\r\n   \"gateInClient\":10,\r\n   \"cardID\":1729,\r\n   \"oddReject\":true,\r\n   \r\n   \"whoddContainers\":[\r\n      {\t\r\n      \t\"impExpFlag\":\"E\",\r\n         \"container01\":{\r\n            \"containerNo\":\"TEMI77777777\",\r\n            \"location\":{\r\n            \t\"oddCode\":\"ODDY10\"\r\n            },\r\n            \"remarks\":\"reject odd export container 01\",\r\n            \"rejectionReasonID\":12,\r\n            \"containerSize\":\"20\",\r\n            \"hdbsBkgDetailNoId\":\"ff808081543d20330159a64777752c92\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"TEMI00000000\",\r\n            \"location\":{\r\n            \t\"oddCode\":\"BK0046\"\r\n            },\r\n            \"remarks\":\"reject odd export container 02\",\r\n            \"rejectionReasonID\":13,\r\n            \"containerSize\":\"20\",\r\n            \"hdbsBkgDetailNoId\":\"ff808081543d20330159a64777752c92\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         }\r\n      },\r\n      {\t\r\n      \t\"impExpFlag\":\"I\",\r\n         \"container01\":{\r\n            \"location\":{\r\n            \t\"oddCode\":\"PACD\"\r\n            },\r\n            \"remarks\":\"reject odd import container 01\",\r\n            \"rejectionReasonID\":10,\r\n            \"hdbsBkgDetailNoId\":\"ff808081543d20330159a64777752c92\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"EARLY\"\r\n         },\r\n         \"container02\":{\r\n           \"location\":{\r\n            \t\"oddCode\":\"ODDY9\"\r\n            },\r\n            \"remarks\":\"reject odd import container 02\",\r\n            \"rejectionReasonID\":11,\r\n            \"hdbsBkgDetailNoId\":\"ff808081543d20330159a64777752c92\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"EARLY\"\r\n         }\r\n      }\r\n   ]\r\n}"
+			"rawModeData": "{\r\n   \"truckHeadNo\":\"KN7999\",\r\n   \"truckPlateNo\":\"BLXB76031\",\r\n   \"gateInDateTime\":\"27-05-2017 19:04:46\",\r\n   \"gateInClient\":10,\r\n   \"cardID\":1998,\r\n   \"oddReject\":true,\r\n   \r\n   \"whoddContainers\":[\r\n      {\t\r\n      \t\"impExpFlag\":\"E\",\r\n         \"container01\":{\r\n            \"containerNo\":\"TEMI77777777\",\r\n            \"location\":{\r\n            \t\"oddCode\":\"ODDY10\"\r\n            },\r\n            \"remarks\":\"reject odd export container 01\",\r\n            \"rejectionReasonID\":12,\r\n            \"containerSize\":\"20\",\r\n            \"hdbsBkgDetailNoId\":\"ff808081543d20330159a64777752c92\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"TEMI00000000\",\r\n            \"location\":{\r\n            \t\"oddCode\":\"BK0046\"\r\n            },\r\n            \"remarks\":\"reject odd export container 02\",\r\n            \"rejectionReasonID\":13,\r\n            \"containerSize\":\"20\",\r\n            \"hdbsBkgDetailNoId\":\"ff808081543d20330159a64777752c92\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"ACTIVE\"\r\n         }\r\n      },\r\n      {\t\r\n      \t\"impExpFlag\":\"I\",\r\n         \"container01\":{\r\n            \"location\":{\r\n            \t\"oddCode\":\"PACD\"\r\n            },\r\n            \"remarks\":\"reject odd import container 01\",\r\n            \"rejectionReasonID\":10,\r\n            \"hdbsBkgDetailNoId\":\"ff80808136046c0e0136a3d1fac04bdf\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"EARLY\"\r\n         },\r\n         \"container02\":{\r\n           \"location\":{\r\n            \t\"oddCode\":\"ODDY9\"\r\n            },\r\n            \"remarks\":\"reject odd import container 02\",\r\n            \"rejectionReasonID\":11,\r\n            \"hdbsBkgDetailNoId\":\"ff80808136046c0e0136a3d1fac04bdf\",\r\n            \"hdbsStatus\":\"ACCEPTED\",\r\n            \"hdbsArrivalStatus\":\"EARLY\"\r\n         }\r\n      }\r\n   ]\r\n}"
 		},
 		{
 			"id": "bca66048-a3ed-2b22-6533-0474859b61d2",

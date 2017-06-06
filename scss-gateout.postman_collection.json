@@ -12,7 +12,8 @@
 		"2d5713a0-85a6-1759-c2cb-447e8d0190fc",
 		"b6c9dffb-13b8-12dc-fd62-94935504a852",
 		"d217ee90-2195-d123-bce2-e3b8ad7d7c59",
-		"d8c910b3-4585-358f-401c-ea2e9ddcf4ae"
+		"d8c910b3-4585-358f-401c-ea2e9ddcf4ae",
+		"c0672bcd-8994-54f2-4e25-0d74a4fa9bf6"
 	],
 	"folders": [],
 	"timestamp": 0,
@@ -83,21 +84,43 @@
 		},
 		{
 			"id": "4855f402-0745-3d9e-39b7-2afabf1a60d3",
-			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDQ0LDQ0MSwzMTQsMzcyLDYyMSwzOTEsMzE1LDMyNCwzMzEsMzIzLDcwMiw2MjMsMzc3LDExMiwzODEsNDYyLDQ1MSw0NjQsMzc1LDExNCwzNjIsMzI2LDExMSw0MjksMjExLDM4OSw0MTgsNDMzLDYyMiwzODgsNDQyLDMxMSw0MTUsNTEwLDIyMiwzOTAsNzAxLDMxMyw0NDgsNTIwLDM5NCw0MTYsNDU0LDM4Miw0NjEsMzg2LDYyNSwzNzksMjIxLDM3NCw0NjcsMzcxLDM4NSw0MTQsNDIzLDM3Niw0MzUsMzI1LDM2MSw0MjQsNDQ2LDQzMSwzNjMsMzIyLDQ0Nyw0MjgsOTAxLDQxMywzNDAsNDYzLDQ0NSw0MzIsMzg3LDM4MCwzMzIsMzc4LDMxMiw0NDksNDMwLDQyNywxMTMsMzI3LDM2MCw0NTUsNDU2LDQ2OCwzOTMsMzkyLDQ0Myw0MjYsNDY1LDYyNCw0NTIsNDE5LDM5NSw0MTcsMzIxLDM4Myw0NjYsMzg0XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjE0MDQwMSwiZXhwIjoxNDk2MTQxMzAxfQ.E8MXfBj_l2WoZA87yY-LYafVFIuCRUdP9NI8rD7xvzMUlr4kmMX27u60BiGAf9jyX_2LuuwVCZX41hXWtR9mtg\nX-Requested-With: XMLHttpRequest\n",
-			"url": "http://localhost:8080/scss-gateout/api/test/solas",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDM1LDM5NSwzOTAsMzk0LDExMywzMTUsNjI0LDM4MywzOTIsNDI4LDMyMSw0MTYsMzkzLDM2MiwzNzksMzEyLDM3NiwzNzEsNDYxLDM4NCw2MjMsNDY0LDM0MCwzMjUsMzkxLDM3Miw0MzMsNDMyLDMzMiw0NDksMjIyLDQ2Nyw2MjUsMzExLDQxNSwzNzQsMzgwLDMyNiw0NjUsNzAyLDExNCwzNjMsMjExLDM2MSw0MTcsNDEzLDQ1MSwzODYsNDQ4LDMzMSwxMTEsNDU1LDM3NSw0NDcsMzc4LDQ2MiwzMjQsNDY4LDM2MCw0NTIsNDYzLDIyMSw0NDEsNDQ0LDM4NSw0MjMsNDI0LDQxNCw0NTYsMzgxLDQyNiw0NTQsMzgyLDQ0Myw2MjIsMzg3LDM4OSw1MTAsNDQ1LDQ2NiwzODgsNDE5LDM3Nyw2MjEsMzIzLDMyNyw1MjAsMzIyLDQzMCwzMTMsOTAxLDQ0Miw0MjcsMzE0LDQzMSwxMTIsNDQ2LDcwMSw0MTgsNDI5XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjcxMTUzNywiZXhwIjoxNDk2NzEyNDM3fQ.KUzbaW0r5SlTrTeHlRtjUfdwRKAKp0YfnH4fRCheGXEem_GsnrXn0ti9a3mMrI0TaP8rvE845fkDtgHa_QxZIQ\nX-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;charset=UTF-8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDM1LDM5NSwzOTAsMzk0LDExMywzMTUsNjI0LDM4MywzOTIsNDI4LDMyMSw0MTYsMzkzLDM2MiwzNzksMzEyLDM3NiwzNzEsNDYxLDM4NCw2MjMsNDY0LDM0MCwzMjUsMzkxLDM3Miw0MzMsNDMyLDMzMiw0NDksMjIyLDQ2Nyw2MjUsMzExLDQxNSwzNzQsMzgwLDMyNiw0NjUsNzAyLDExNCwzNjMsMjExLDM2MSw0MTcsNDEzLDQ1MSwzODYsNDQ4LDMzMSwxMTEsNDU1LDM3NSw0NDcsMzc4LDQ2MiwzMjQsNDY4LDM2MCw0NTIsNDYzLDIyMSw0NDEsNDQ0LDM4NSw0MjMsNDI0LDQxNCw0NTYsMzgxLDQyNiw0NTQsMzgyLDQ0Myw2MjIsMzg3LDM4OSw1MTAsNDQ1LDQ2NiwzODgsNDE5LDM3Nyw2MjEsMzIzLDMyNyw1MjAsMzIyLDQzMCwzMTMsOTAxLDQ0Miw0MjcsMzE0LDQzMSwxMTIsNDQ2LDcwMSw0MTgsNDI5XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjcxMTUzNywiZXhwIjoxNDk2NzEyNDM3fQ.KUzbaW0r5SlTrTeHlRtjUfdwRKAKp0YfnH4fRCheGXEem_GsnrXn0ti9a3mMrI0TaP8rvE845fkDtgHa_QxZIQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/scss-gateout/api/test/solas",
+			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
+			"pathVariableData": [],
 			"method": "PUT",
 			"data": [],
 			"dataMode": "raw",
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1496151811704,
+			"time": 1496711843154,
 			"name": "http://localhost:8080/scss-gateout/api/test/checksolas",
 			"description": "To tes the export container save method",
 			"collectionId": "4265c864-ce13-2c67-764a-321afa26bea0",
-			"rawModeData": "{\r\n  \r\n   \"exportContainers\":[\r\n      {\r\n         \"exportID\":6295576\r\n      },\r\n      {\r\n         \"exportID\":6295577\r\n      }\r\n   ]\r\n}"
+			"rawModeData": "{\r\n  \r\n   \"exportContainers\":[\r\n      {\r\n         \"exportID\":6295619\r\n      }\r\n   ]\r\n}"
 		},
 		{
 			"folder": null,
@@ -162,10 +185,32 @@
 		},
 		{
 			"id": "b6c9dffb-13b8-12dc-fd62-94935504a852",
-			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNjIyLDQ2MSw2MjQsMzg3LDQyMyw0NDksNDI4LDQ0NSwzMjQsNDY1LDM3MSw0NjMsNDE1LDM4Niw0MTksMTEzLDQ1NCwzMzIsNjIxLDQxNywzNzgsNzAxLDM5MSw5MDEsNzAyLDMzMSw0NjgsNDE2LDUxMCw0MzAsNDE4LDIyMiwzODAsNDU2LDM4OCw0MjYsNDUxLDMyNiwzNjIsMzYwLDMxMiwzODIsMzgzLDMyMywzOTQsMzc2LDMxNCwzODUsMTExLDMyMSw0MzEsNTIwLDQzNSw0NjQsMzc1LDM4NCwzOTAsMjIxLDM3OSw0NjYsNjI1LDQ1MiwzMTUsMzc3LDMyNSwxMTIsMzkyLDIxMSwzNzQsNDU1LDYyMywzMjIsMzgxLDM4OSw0NDgsMzEzLDQ0MSw0NjIsMzcyLDExNCwzOTUsNDI3LDQzMyw0NDIsMzYzLDQ0NCw0MjksNDE0LDQ0Niw0NDcsMzQwLDQyNCw0MTMsNDQzLDM2MSw0NjcsMzExLDQzMiwzOTMsMzI3XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NTg4Mzg1OSwiZXhwIjoxNDk1ODg0NzU5fQ.NXH01dGfWdU0JODw7OQcu255D6iYz3ZJv4nERXbzoSN5LJufvJIebr8PjneAkSg7cC7f8XILtgQz3O2-5gJEdw\nX-Requested-With: XMLHttpRequest\n",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzg2LDMxMiw0MzIsNDE1LDIxMSw0NDgsNDY4LDExMSw0MTgsMzcxLDM3Nyw0MTksMzYxLDMxMywzMTUsMzgxLDM5MCwxMTMsNjIyLDMyNCw0NDIsMzgzLDQ2Nyw5MDEsNDMzLDcwMiwzMjEsNDQxLDQ2NiwzNjAsNDY0LDQ1MSw0MjgsMjIyLDMyMiwzNzgsNDU1LDM5NCwzMTQsMzIzLDM3NCwzMTEsMzc1LDUyMCwzODUsNDYxLDM4MiwzOTMsNjI0LDQ2Myw0MTQsNDEzLDQyNiw0NTYsNDIzLDQ1Miw0MzEsNTEwLDQyOSwzODQsNDMwLDYyMywzMzEsMzc5LDQ0NiwzODcsMzYyLDM3MiwzODAsNDM1LDQ0MywzODksNDYyLDMyNSwzODgsNjI1LDM5MSwxMTQsMjIxLDExMiw0NDksMzI3LDM0MCwzOTIsNDI3LDQxNywzNjMsNDQ0LDQ1NCw0MTYsNDY1LDcwMSw0MjQsNDQ3LDQ0NSw2MjEsMzMyLDM3NiwzMjYsMzk1XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjY5NjQ2MywiZXhwIjoxNDk2Njk3MzYzfQ.gqETzIayva6iBvg8hYhOVUKJs1R0kR8ljXtuiAaHGAT9SeCJZrjffzXI4q2Mar3KowgDk7vL5OtIk_3tRkU3GQ\nX-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;charset=UTF-8",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbMzg2LDMxMiw0MzIsNDE1LDIxMSw0NDgsNDY4LDExMSw0MTgsMzcxLDM3Nyw0MTksMzYxLDMxMywzMTUsMzgxLDM5MCwxMTMsNjIyLDMyNCw0NDIsMzgzLDQ2Nyw5MDEsNDMzLDcwMiwzMjEsNDQxLDQ2NiwzNjAsNDY0LDQ1MSw0MjgsMjIyLDMyMiwzNzgsNDU1LDM5NCwzMTQsMzIzLDM3NCwzMTEsMzc1LDUyMCwzODUsNDYxLDM4MiwzOTMsNjI0LDQ2Myw0MTQsNDEzLDQyNiw0NTYsNDIzLDQ1Miw0MzEsNTEwLDQyOSwzODQsNDMwLDYyMywzMzEsMzc5LDQ0NiwzODcsMzYyLDM3MiwzODAsNDM1LDQ0MywzODksNDYyLDMyNSwzODgsNjI1LDM5MSwxMTQsMjIxLDExMiw0NDksMzI3LDM0MCwzOTIsNDI3LDQxNywzNjMsNDQ0LDQ1NCw0MTYsNDY1LDcwMSw0MjQsNDQ3LDQ0NSw2MjEsMzMyLDM3NiwzMjYsMzk1XSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjY5NjQ2MywiZXhwIjoxNDk2Njk3MzYzfQ.gqETzIayva6iBvg8hYhOVUKJs1R0kR8ljXtuiAaHGAT9SeCJZrjffzXI4q2Mar3KowgDk7vL5OtIk_3tRkU3GQ",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest",
+					"description": "",
+					"enabled": true
+				}
+			],
 			"url": "http://localhost:8080/scss-gateout/api/gateout/odd/update",
+			"queryParams": [],
 			"preRequestScript": null,
 			"pathVariables": {},
+			"pathVariableData": [],
 			"method": "PUT",
 			"data": [],
 			"dataMode": "raw",
@@ -173,12 +218,47 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1496159625233,
+			"time": 1496696667154,
 			"name": "http://localhost:8080/scss-gateout/api/gateout/odd/update",
 			"description": "update wh odd info gate out",
 			"collectionId": "4265c864-ce13-2c67-764a-321afa26bea0",
 			"responses": [],
-			"rawModeData": "{\r\n   \"truckHeadNo\":\"HAN001\",\r\n   \"truckPlateNo\":\"60P1-2933\",\r\n   \"gateOutClient\":10,\r\n   \"gateOutBooth\":11,\r\n   \"cardID\":1729,\r\n   \"gateOUTDateTime\":\"09-04-2017 16:02:45\",\r\n   \"cancelPickUP\":false,\r\n   \"transactionZipFile\":[\r\n\r\n   ],\r\n   \"reviseHeadNo\":\"KN12345\",\r\n   \"reviseHeadNoRemarks\":\"reviseHeadNoRemarks\",\r\n   \"whoddContainers\":[\r\n      {\t\r\n      \t\"oddIdSeq\":12,\r\n      \t\"impExpFlag\":\"E\",\r\n         \"container01\":{\r\n            \"containerNo\":\"TEMI77777777\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd export container 01\",\r\n            \"rejectionReasonID\":12\r\n            \r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"TEMI00000000\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd export container 02\",\r\n            \"rejectionReasonID\":13\r\n         }\r\n      },\r\n      {\t\r\n      \t\"oddIdSeq\":12,\r\n      \t\"impExpFlag\":\"I\",\r\n         \"container01\":{\r\n            \"containerNo\":\"IMP77777788\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd import container 01\",\r\n            \"rejectionReasonID\":10\r\n            \r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"IMP77777799\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd import container 02\",\r\n            \"rejectionReasonID\":11\r\n            \r\n         }\r\n      }\r\n   ]\r\n}"
+			"rawModeData": "{\r\n   \"truckHeadNo\":\"KN7999\",\r\n   \"truckPlateNo\":\"BLXB76031\",\r\n   \"gateOutClient\":11,\r\n   \"gateOutBooth\":11,\r\n   \"cardID\":1998,\r\n   \"gateOUTDateTime\":\"09-04-2017 16:02:45\",\r\n   \"cancelPickUP\":false,\r\n   \"transactionZipFile\":[\r\n\r\n   ],\r\n   \"reviseHeadNo\":\"KN12345\",\r\n   \"reviseHeadNoRemarks\":\"reviseHeadNoRemarks\",\r\n   \"whoddContainers\":[\r\n      {\t\r\n      \t\"oddIdSeq\":4075443,\r\n      \t\"impExpFlag\":\"E\",\r\n         \"container01\":{\r\n            \"containerNo\":\"TEMI77777777\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd export container 01\",\r\n            \"rejectionReasonID\":12\r\n            \r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"TEMI00000000\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd export container 02\",\r\n            \"rejectionReasonID\":13\r\n         }\r\n      },\r\n      {\t\r\n      \t\"oddIdSeq\":4075543,\r\n      \t\"impExpFlag\":\"I\",\r\n         \"container01\":{\r\n            \"containerNo\":\"IMP77777788\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd import container 01\",\r\n            \"rejectionReasonID\":10\r\n            \r\n         },\r\n         \"container02\":{\r\n            \"containerNo\":\"IMP77777799\",\r\n            \"fullOrEmpty\":\"F\",\r\n            \"oddStatus\":\"R\",\r\n            \"remarks\":\"reject odd import container 02\",\r\n            \"rejectionReasonID\":11\r\n            \r\n         }\r\n      }\r\n   ]\r\n}"
+		},
+		{
+			"id": "c0672bcd-8994-54f2-4e25-0d74a4fa9bf6",
+			"headers": "Content-Type: application/json;charset=UTF-8\nX-Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDMyLDMyNCwzNzUsMzg3LDQ2NCwzODIsNTIwLDcwMSwzODMsMzgwLDQ1MSwzOTIsNjIyLDQ0MiwzNDAsMzc3LDQyNiw0MjcsNDYxLDMyMyw0MTcsNDQ5LDQxNiw0NDQsNDMxLDM3Miw0NjIsMzYyLDM4NiwzMjIsNDYzLDQ2NSwzNzksNDMwLDIyMiw2MjEsNjIzLDM3NCw0NDMsMzMyLDQ2OCw0NTUsMzc4LDExMSwzOTUsNDE1LDYyNSw0NTYsNDE5LDIyMSw0MTMsNDU0LDM5MywyMTEsMzg0LDQ0NiwzODksMzI2LDMyNywxMTMsNDE4LDExNCwzMjUsMzYzLDUxMCwzNzEsMzg4LDYyNCwzMTEsMTEyLDQzMyw0MjMsMzEzLDQ0Nyw3MDIsMzkxLDM5MCwzODUsMzE1LDM5NCwzNjAsNDM1LDM3Niw0MjksMzYxLDQ1Miw0MTQsMzEyLDQyOCwzMjEsMzMxLDQ0NSw0MjQsMzE0LDkwMSwzODEsNDY3LDQ2Niw0NDgsNDQxXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjcwNDQ3NCwiZXhwIjoxNDk2NzA1Mzc0fQ.dbxqL-aG9URY1qs1uJSEGzXAXCz7syfmM-qySLOaX836U93QMcQepCFUUm4Ac2RddLdJiS3FAuvfkXHHSdvHiw\nX-Requested-With: XMLHttpRequest\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json;charset=UTF-8"
+				},
+				{
+					"key": "X-Authorization",
+					"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJURVNUVCIsInJvbGVzIjpbIkFETUlOSVNUUkFUT1IiXSwiZnVuY3Rpb25zIjpbNDMyLDMyNCwzNzUsMzg3LDQ2NCwzODIsNTIwLDcwMSwzODMsMzgwLDQ1MSwzOTIsNjIyLDQ0MiwzNDAsMzc3LDQyNiw0MjcsNDYxLDMyMyw0MTcsNDQ5LDQxNiw0NDQsNDMxLDM3Miw0NjIsMzYyLDM4NiwzMjIsNDYzLDQ2NSwzNzksNDMwLDIyMiw2MjEsNjIzLDM3NCw0NDMsMzMyLDQ2OCw0NTUsMzc4LDExMSwzOTUsNDE1LDYyNSw0NTYsNDE5LDIyMSw0MTMsNDU0LDM5MywyMTEsMzg0LDQ0NiwzODksMzI2LDMyNywxMTMsNDE4LDExNCwzMjUsMzYzLDUxMCwzNzEsMzg4LDYyNCwzMTEsMTEyLDQzMyw0MjMsMzEzLDQ0Nyw3MDIsMzkxLDM5MCwzODUsMzE1LDM5NCwzNjAsNDM1LDM3Niw0MjksMzYxLDQ1Miw0MTQsMzEyLDQyOCwzMjEsMzMxLDQ0NSw0MjQsMzE0LDkwMSwzODEsNDY3LDQ2Niw0NDgsNDQxXSwic3RhZmZOYW1lIjoiTU9IRCBZVVNVRiBCSU4gQUxJQVMiLCJzdGFmZk51bWJlciI6IjYwNTYiLCJ1c2VySUQiOjQsImlzcyI6Imh0dHA6Ly9zY3NzLmNvbS5teSIsImlhdCI6MTQ5NjcwNDQ3NCwiZXhwIjoxNDk2NzA1Mzc0fQ.dbxqL-aG9URY1qs1uJSEGzXAXCz7syfmM-qySLOaX836U93QMcQepCFUUm4Ac2RddLdJiS3FAuvfkXHHSdvHiw"
+				},
+				{
+					"key": "X-Requested-With",
+					"value": "XMLHttpRequest"
+				}
+			],
+			"url": "http://localhost:8080/scss-gateout/api/gateout/updatecustoms",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1496704622777,
+			"name": "http://localhost:8080/scss-gateout/api/gateout/updatecustoms",
+			"description": "update customs after gate out",
+			"collectionId": "4265c864-ce13-2c67-764a-321afa26bea0",
+			"responses": [],
+			"rawModeData": "{  \r\n   \"exportIDSeq01\":null,\r\n   \"exportIDSeq02\":null,\r\n   \"gatePassIDSeq01\":null,\r\n   \"gatePassIDSeq02\":null,\r\n   \"oddIdSeq01\":4075543,\r\n   \"oddIdSeq02\":4075443,\r\n   \"gateOutClientId\":12\r\n}"
 		},
 		{
 			"id": "d217ee90-2195-d123-bce2-e3b8ad7d7c59",
